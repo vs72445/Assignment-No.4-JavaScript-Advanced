@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background: linear-gradient(135deg,  #ff2323, #1818ff);
+}
+.container{
+    background-color: #e7f7ff;
+    box-shadow: 1px 1px 20px #000000dc;
+    padding: 50px;
+    border-radius: 11px;
+    text-align: center;
+    width: 500px;
+}
+h2{
+    margin: 0 0 2px 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.time{
+    font-size: 74px;
+    letter-spacing: 2px;
+}
+#count{
+    font-size: 32px;
+}
+.btn{
+    padding: 5px 15px;
+    background: linear-gradient(135deg, #1818ff, #ff2323);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin: 11px 5px 0 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: #5580f7;
+}
+
+.calci {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    padding: 20px;
+    letter-spacing: 2px;
+    font-size: 45px;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(41, 41, 41);
+    margin: 1px 0;
+    padding: 0 5px;
+    letter-spacing: 1px;
+    text-align: end;
+    font-size: 22px;
+}
+
+#output {
+    color: rgb(127, 212, 0);
+}
+
+#input {
+    color: white;
+}
+
+table {
+    margin: auto;
+}
+
+.function_keys {
+    height: 70px;
+    width: 73px;
+    border-radius: 11px;
+    border: 1px solid transparent;
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.numbers {
+    height: 70px;
+    width: 73px;
+    border-radius: 11px;
+    border: 1px solid transparent;
+    background-color: darkgrey;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.zero_number {
+    width: 146px;
+    height: 70px;
+    border-radius: 11px;
+    border: 1px solid transparent;
+    background-color: darkgrey;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#ac {
+    width: 146px;
+    height: 70px;
+    border-radius: 11px;
+    border: 1px solid transparent;
+    background-color: rgb(212, 57, 0);
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#equal {
+    height: 140px;
+    width: 73px;
+    border-radius: 11px;
+    border: 1px solid transparent;
+    background-color: rgb(98, 29, 163);
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    box-shadow: 1px 1px 5px black;
+}
+
+button:active,
+#equal:active,
+#ac:active {
+    background-color: black;
+}

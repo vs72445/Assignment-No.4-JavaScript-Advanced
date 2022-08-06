@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="problem2.css">
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <div class="content">
+                <label for="bill" class="lbl">
+                    Bill
+                </label>
+                <div class="input-box">
+                    <span>$</span>
+                    <input type="number" value="10.00" id="bill" class="val">
+                </div>
+            </div>
+            <div class="content">
+                <span class="lbl">Tip</span>
+                <span id="tip-amount" class="val">
+                    $0.5
+                </span>
+            </div>
+            <hr>
+            <div class="content">
+                <label for="tip" class="lbl">
+                    Tip %
+                </label>
+                <span id="tip-percent" class="val">
+                    5%
+                </span>
+            </div>
+            <input type="range" min="0" id="tip_range" value="5">
+        </section>
+
+        <section>
+            <div class="content">
+                <span class="lbl">Total Amount</span>
+                <span id="total-amount" class="val">
+                    $10.5
+                </span>
+            </div>
+        </section>
+    </div>
+    <script src="problem2.js"></script>
+</body>
+
+</html>
